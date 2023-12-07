@@ -52,9 +52,9 @@ const Header = () => {
         alt="Logo"
       />
       { user && 
-        <div className="flex p-4">
+        <div className="flex p-4 " >
           <img className="w-11 h-12 rounded-lg" src={userIcon} alt="usericon" />
-          <button onClick={handleSignOut} className="w-12 h-12 p-4">
+          <button onClick={handleSignOut} className="w-12 h-12 p-4 text-white">
             <img alt="logout" src={logout} />
           </button>
         </div>
